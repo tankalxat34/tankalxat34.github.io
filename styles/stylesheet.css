@@ -140,8 +140,10 @@ a.button-menu:active {color: white;}
 	border: 0px; 
 
 	background-image: url(https://github.com/tankalxat34/tankalxat34.github.io/raw/main/title.jpg);
+	/*background-image: url("../title2.jpg");*/
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-size: auto;
 
 	text-align: center;
 	margin: auto;
