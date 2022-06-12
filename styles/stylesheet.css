@@ -83,30 +83,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Верхнее меню на главной странице */
-.title-menu-main {
-	border: solid;
-	height: 5em;
-	/*background: linear-gradient(180deg, rgba(12, 12, 12, .8), rgba(12, 12, 12, .6), rgba(12, 12, 12, .1));*/
-	position: sticky; 
-	z-index: 1;
-	/*padding: 2em;*/
-	padding-top: 10vh;
-	padding-left: 7%;
-
-	/*text-align: right;*/
-}
-
-.title-button-menu {
-	color: #f0f0f0; 
-	font-size: 30px;
-	font-weight: 500;
-	font-family: "Inter", sans-serif;
-
-	padding: 5vh;
-	border-radius: 20px;
-	border: 2px;
-}
-a.title-button-menu:hover {border: 2px red}
 
 /* Кнопка tankalxat34 */
 .tankalxat34-button {
@@ -155,6 +131,25 @@ a.button-menu:active {color: white;}
 	font-size: 25px;
 	color: #f0f0f0;
 }
+
+/* контейнер вверху страницы */
+.title-div {
+	width: 100%; 
+	height: 40vh; 
+	border-radius: 0px; 
+	border: 0px; 
+
+	background-image: url(../title.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	text-align: center;
+	margin: auto;
+	font-family: "Inter", sans-serif;
+	font-size: 25px;
+	color: #f0f0f0;
+}
+
 
 /* глассморфизм-виджеты */
 .card {
@@ -225,32 +220,6 @@ a.button:active { background: white; }
 
 
 /* Настройки элементов для страниц */
-.h1-main {
-	font-size: 80px;
-	font-family: "Inter", sans-serif;
-}
-
-.p-main p {
-	font-size: 22px;
-	font-family: "Inter", sans-serif;
-}
-
-.icon-main {
-	width: 19px;
-}
-
-
-.avatare-main {
-	padding: 30px;
-	border-radius: 100%;
-	text-align: left;
-	float: right;
-	display: inline-block;
-	border-radius: 100%;
-	width: 27%;
-	padding: 1em 1em;
-	/*opacity: 0.9;*/
-}
 
 .a-button-main {
 	display: inline-block;
