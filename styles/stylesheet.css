@@ -46,6 +46,16 @@ body::-webkit-scrollbar-thumb {
 
 /* Оформление страниц */
 
+/* Низ страницы */
+.bottom-main {
+	background: #303841;
+	height: 20vh;
+	position: absolute;
+	display: block;
+
+}
+
+
 /* Верхнее меню */
 .top-menu {
 	/* Блюр */
@@ -194,7 +204,7 @@ a.button-menu:active {color: white;}
 	padding-left: 30px;
 	padding-right: 35px;
 	padding-bottom: 10px;
-	width: 45%;
+	width: 50%;
 	/*min-width: 60%;*/
 }
 .card-black p {
@@ -216,7 +226,7 @@ a.button-menu:active {color: white;}
 	border-radius: 100%;
 	padding: 15px;
 	/*padding-left: 150px;*/
-	width: 30%;
+	width: 25%;
 	height: auto;
 	float: left;
 	margin: auto;
@@ -289,6 +299,7 @@ a.button:active { background: white; }
     font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
 }
 .sub-button-wot:hover{color:#474747;background:#f9f5e1}
+/*.sub-button-wot:hover{color:rgba(0, 0, 0, 1);background:#f9f5e1}*/
 
 /* как в игре world of tanks */
 .button-wot {
@@ -296,9 +307,12 @@ a.button:active { background: white; }
 	background: linear-gradient(180deg, rgba(104,102,76,1) 34%, rgba(78,77,56,1) 62%, rgba(50,50,37,1) 100%);
 	font-size: 20px;
 	font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
-	text-shadow: 6px;
+	text-shadow: 1px 1px 1px black;
 	color: white;
 	display: inline-block;
+
+	border-top-color: #9D9D97;
+	border-bottom-color: #1F1F1B;
 	border: 1px grey solid;
 
 	padding: 5px 25px;
