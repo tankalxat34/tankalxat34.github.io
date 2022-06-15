@@ -248,9 +248,6 @@ a.button:active { background: white; }
 .button-main {
 	display: inline-block;
 
-	/*background: linear-gradient(160deg, rgba(44,7,83,1) 12%, rgba(4,93,125,1) 57%, rgba(123,58,223,1) 100%);*/
-	/*background: linear-gradient(160deg, rgba(44,7,83,.8) 12%, rgba(4,93,125,.7) 57%, rgba(123,58,223,.5) 100%);;*/
-	/*background: rgba(64, 64, 64, .3);*/
 	background: #00BE59;
 	border: 1px solid rgba(64, 64, 64, .5);
 	color: white;
@@ -262,24 +259,14 @@ a.button:active { background: white; }
 	border-radius: 10px;
 	transition: 0.4s;
 
-    /*font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;*/
     font-family: 'Inter' sans-serif;
 	font-size: 18px;
 	text-align: center;
-	/*text-transform: uppercase;*/
 
 	margin: auto;
 }
 .button-main:hover { 
-	/*background: rgba(255,255,255,.2);*/
-	/*background: linear-gradient(160deg, rgba(4,93,125,.1) 10%, rgba(123,58,223,.7) 100%);*/
-	/*background: linear-gradient(160deg, rgba(44,7,83,.8) 12%, rgba(4,93,125,.3) 57%, rgba(123,58,223,.3) 100%);*/
-	/*background: rgba(64, 64, 64, .3);*/
-
-
 	background: #00E269;
-	/*background: #008940;*/
-	/*background: #3ABC77;*/
 
 }
 .button-main:active { background: white; }
@@ -315,12 +302,6 @@ a.button:active { background: white; }
 	border: 1px grey solid;
 
 	padding: 5px 25px;
-
-	/*padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 5px;
-	padding-bottom: 5px;*/
-
 }
 .button-wot:hover {
 	background: linear-gradient(180deg, rgba(112,109, 83,1) 34%, rgba(91,90,67,1) 62%, rgba(63,63,47,1) 100%);
