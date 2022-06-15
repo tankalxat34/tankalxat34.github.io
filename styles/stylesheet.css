@@ -28,12 +28,6 @@ html {
 	background-attachment: fixed;
 }
 
-.post-sub span {
-    background: linear-gradient(70.56deg, #0022FF -35.95%, #0022FF -16.25%, #C8FAFB 13.03%, #A5EDB6 48.3%, #FAE85A 63.82%, #FDAC3E 81.55%, #FF5C00 105.66%);;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 
 body::-webkit-scrollbar {
 	width: 8px;
@@ -153,11 +147,11 @@ a.button-menu:active {color: white;}
 
 
 .title-div h1 {
-	font-size: 70px;
+	font-size: 75px;
 }
 
 .title-div h2 {
-	font-size: 25px;
+	font-size: 26px;
 }
 
 
@@ -200,12 +194,32 @@ a.button-menu:active {color: white;}
 	padding-left: 30px;
 	padding-right: 35px;
 	padding-bottom: 10px;
-	width: 55%;
-	min-width: 60%;
+	width: 45%;
+	/*min-width: 60%;*/
+}
+.card-black p {
+	font-size: 17px;
 }
 
+/* размеры и центрирование виджетов глассморфизма */
+.in-page-center {
+	margin: auto;
+	text-align: center;
+}
+
+/* картинки и графика */
 .emoji {
 	width: 19px;
+}
+
+.avatare {
+	border-radius: 100%;
+	padding: 15px;
+	/*padding-left: 150px;*/
+	width: 30%;
+	height: auto;
+	float: left;
+	margin: auto;
 }
 
 a.button {
@@ -231,7 +245,7 @@ a.button:active { background: white; }
 
 /* Настройки элементов для страниц */
 
-.a-button-main {
+.button-main {
 	display: inline-block;
 
 	/*background: linear-gradient(160deg, rgba(44,7,83,1) 12%, rgba(4,93,125,1) 57%, rgba(123,58,223,1) 100%);*/
@@ -243,17 +257,20 @@ a.button:active { background: white; }
 
 	text-decoration: none;
 	user-select: none;
-	padding: .7em 4em;
+	padding: 12px 50px;
 	outline: none;
 	border-radius: 10px;
 	transition: 0.4s;
 
-	font-family: "Inter", sans-serif;
+    /*font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;*/
+    font-family: 'Inter' sans-serif;
 	font-size: 18px;
 	text-align: center;
+	/*text-transform: uppercase;*/
+
 	margin: auto;
 }
-.a-button-main:hover { 
+.button-main:hover { 
 	/*background: rgba(255,255,255,.2);*/
 	/*background: linear-gradient(160deg, rgba(4,93,125,.1) 10%, rgba(123,58,223,.7) 100%);*/
 	/*background: linear-gradient(160deg, rgba(44,7,83,.8) 12%, rgba(4,93,125,.3) 57%, rgba(123,58,223,.3) 100%);*/
@@ -265,7 +282,52 @@ a.button:active { background: white; }
 	/*background: #3ABC77;*/
 
 }
-.a-button-main:active { background: white; }
+.button-main:active { background: white; }
+
+
+/* кнопки как в world of tanks */
+.sub-button-wot {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #f9f5e1;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 28px;
+    border: 2px solid #f9f5e1;
+    transition: background .15s ease-out,color .15s ease-out;
+
+    font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+}
+.sub-button-wot:hover{color:#474747;background:#f9f5e1}
+
+/* как в игре world of tanks */
+.button-wot {
+	background: rgb(104,102,76);
+	background: linear-gradient(180deg, rgba(104,102,76,1) 34%, rgba(78,77,56,1) 62%, rgba(50,50,37,1) 100%);
+	font-size: 20px;
+	font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+	text-shadow: 6px;
+	color: white;
+	display: inline-block;
+	border: 1px grey solid;
+
+	padding: 5px 25px;
+
+	/*padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;*/
+
+}
+.button-wot:hover {
+	background: linear-gradient(180deg, rgba(112,109, 83,1) 34%, rgba(91,90,67,1) 62%, rgba(63,63,47,1) 100%);
+}
+.button-wot:active {
+	background: rgba(112,109, 83,1) 34%;
+}
 
 
 
