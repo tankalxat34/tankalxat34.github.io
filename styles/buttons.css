@@ -1,0 +1,11 @@
+/* стили всех кнопок на сайте */
+
+a {
+	/*color: #00DDFF;*/
+	color: #3A8FFF;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+

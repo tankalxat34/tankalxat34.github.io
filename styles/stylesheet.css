@@ -145,6 +145,7 @@ a.button-menu:active {color: white;}
 	border: 0px;
 
 	background-image: url("https://raw.githubusercontent.com/tankalxat34/tankalxat34.github.io/content/title.jpg");
+	/*background-image: url("https://i.ytimg.com/vi/bX87HBol724/maxresdefault_live.jpg");*/
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -217,12 +218,23 @@ a.button-menu:active {color: white;}
 	text-align: center;
 }
 
+.in-page-right {
+	/*margin: auto;*/
+	text-align: right;
+}
+
+.in-page-left {
+	/*margin: auto;*/
+	text-align: right;
+}
+
 /* картинки и графика */
 .emoji {
-	width: 19px;
+	width: 16px;
 }
 
 .avatare {
+	display: inline-block;
 	border-radius: 100%;
 	padding: 15px;
 	/*padding-left: 150px;*/
@@ -297,6 +309,7 @@ a.button:active { background: white; }
     transition: background .15s ease-out,color .15s ease-out;
 
     font-family: "Roboto Condensed","Arial Narrow",Arial,sans-serif;
+    background: rgba(0, 0, 0, 0);
 }
 .sub-button-wot:hover{color:#474747;background:#f9f5e1}
 /*.sub-button-wot:hover{color:rgba(0, 0, 0, 1);background:#f9f5e1}*/
@@ -324,6 +337,95 @@ a.button:active { background: white; }
 	background: rgba(112,109, 83,1) 34%;
 }
 
+
+
+/*.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+}*/
+
+.button-github {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    color: #c9d1d9;
+    background-color: #21262d;
+    border-color: rgba(240, 246, 252, 0.1);
+    box-shadow: 0 0 transparent, 0 0 transparent;
+    transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: color,background-color,box-shadow,border-color;
+
+    text-align: center;
+}
+
+.button-github:hover {
+	background-color: #30363D;
+	border-color: #8B949E;
+}
+
+
+.button-github-green {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    color: #ffffff;
+    background-color: #238636;
+    border-color: rgba(240, 246, 252, 0.1);
+    box-shadow: 0 0 transparent, 0 0 transparent;
+    transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: color,background-color,box-shadow,border-color;
+
+    text-align: center;
+}
+
+.button-github-green:hover {
+	background-color: #2EA043;
+	/*border-color: #8B949E;*/
+}
+
+
+.Box {
+    padding: 16px !important;
+    margin-top: 8px !important;
+    background-color: #0d1117;
+    border-color: #30363d;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
 
 
 /* Встроенные виджеты */

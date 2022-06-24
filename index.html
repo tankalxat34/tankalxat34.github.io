@@ -9,7 +9,9 @@
 		<link rel="icon" href="https://raw.githubusercontent.com/tankalxat34/tankalxat34.github.io/content/favicon.png">
 
 		<!-- загрузка стилей -->
-		<link rel="stylesheet" href="./styles/stylesheet.css">
+		<!-- <link rel="stylesheet" href="./styles/stylesheet.css"> -->
+		<link rel="stylesheet" href="./styles/blocks.css">
+		<link rel="stylesheet" href="./styles/buttons.css">
 		<link rel="stylesheet" href="./styles/fonts.css">
 
 		<!-- подключение шрифтов -->
@@ -21,62 +23,74 @@
 	</head>
 
 	<!-- верхнее меню -->
-	<div class="top-menu">
-		<a href="./index.html" class="menu-logo"><b>tankalxat34</b></a>
-		<a href="./index.html" class="button-menu"><b>Главная</b></a>
-		<a href="./index.html" class="button-menu"><b>Проекты</b></a>
-		<a href="./index.html" class="button-menu"><b>Блог</b></a>
-	</div>
+	<header>
+		<a href="" class="header-special-link">главная</a>
+		<a href="">Обо мне</a>
+		<a href="">Проекты</a>
+		<a href="">Контакты</a>
+	</header>
+
 
 	<!-- основная часть	-->
 	<body style="margin: auto;">
 		
-		<div class="title-div">
-			<br>
-			<h1>tankalxat34</h1>
-			<h2>Официальный сайт <img src="https://raw.githubusercontent.com/tankalxat34/tankalxat34.github.io/content/check-cyan.svg" width=21px></h2>
-		</div>
+		<div style="
+			padding: 10%;
+			/*background: linear-gradient(36deg, rgba(252,255,25,.1) 8%, rgba(20,255,126,.1) 34%, rgba(38,162,255,.1) 63%, rgba(241,60,156,.1) 87%);*/
+			/*background: linear-gradient(36deg, rgba(255,64,64,.2) 21%, rgba(29,213,189,.2) 64%, rgba(123,58,223,.2) 100%);*/
+			background: linear-gradient(30deg, rgba(255,64,64,.2) 7%, rgba(123,58,223,.2) 90%);
 
-		<br>
+			">
 
-		<div class="card-black in-page-center" style="text-align: justify;">
-			<img src="https://avatars.githubusercontent.com/u/89201004?v=4" class="avatare">
+			
+			<div style="margin-top: 23vh; margin-bottom: 23vh; width: 50%;">
+				<span class="tankalxat34-big" style="font-size: 80px;">tankalxat34</span><br>
+				<span style="font-weight: 10; font-size: 25px">Официальный сайт</span>
+			</div>
+			
+			<!-- <img src="./su7u.webp" width=70% style="float: right;"> -->
 
-			<p>
-				Привет! Добро пожаловать на сайт начинающего программиста и Frontend-разработчика Александра <b>(tankalxat34)</b> Подстречного.
-			</p>
-
-			<p>
-				На сайте представлена основная информация обо мне и моих проектах. Имеются ссылки на социальные сети.
-			</p>
-
-			<p>
-				Также я веду свой Telegram-канал, в нем вы найдете фото из реальной жизни, мемы, полезный и развлекательный контент. Подписывайтесь :)
-			</p>
-
-			<div style="text-align: center; margin: auto;">
-				<div>
-					<a href="tg://resolve?domain=tankalxat34_official" class="button-main">Подписаться</a>
-					<br>
-					<span style="font-size: 9px">Ссылка <a href="https://t.me/tankalxat34_official">не работает</a>?</span>
-				</div>
-				
+			<div style="margin-left: 50%;">
+				<!-- <img src="./su7u.webp" width=70%> -->
 			</div>
 
 		</div>
 
-		<br>
+		<div style="padding: 5%;">
 
-		<!-- <div class="card-black in-page-center">
-			<h2>Кнопки</h2>
-			<a href="" class="button-wot">Подписаться</a>
-			<a href="" class="sub-button-wot">Подробнее</a>
-		</div> -->
+			<img src="./tank.webp" width=40% style="float: left; margin-top: 10%">
+			
+			<div style="position: right; margin-left: 50%; text-align: justify;">
+				<h1>Обо мне</h1>
+				<p>Вы находитесь на официальном сайте начинающего программиста и Frontend-разработчика Александра Подстречного, в интернете более известного под никнеймом <b>tankalxat34</b>.</p>
+				<p>Некоторые факты обо мне перечислены ниже. Подробнее о всех моих навыках вы можете узнать в разделе "<a href="">Обо мне</a>":</p>
+				<ul>
+					<li>Живу в Москве;</li>
+					<li>Учусь на экономиста в МОФ РАНХиГС;</li>
+					<li>Свободно пишу на Python и VBA;</li>
+					<li>Разбираюсь в синтаксисе JSON, INI, YAML и других форматах;</li>
+					<li>Начал изучать C++ и JavaScript;</li>
+					<li>Совершенствую навыки работы с HTML, CSS;</li>
+					<li>Иногда веду стримы на <a href="https://trovo.live/s/tankalxat34"><img src="https://astatic.trovocdn.net/cat/favicon.ico" width=17px> Trovo</a>, подписывайтесь;</li>
+				</ul>
+				<p>Рекомендую посетить все разделы этого сайта и подписаться на мой Telegram канал и Trovo :)</p>
+			</div>
 
+		</div>
+
+		
 	</body>
 
 	<!-- низ сайта -->
-	<div class="bottom-main"></div>
+	<footer>
+		<span>© tankalxat34 - 2022</span>
+		<a href="https://github.com/tankalxat34">GitHub</a>
+		<a href="https://t.me/tankalxat34_official">Telegram</a>
+		<a href="https://trovo.live/s/tankalxat34">Trovo</a>
+		<a href="https://vk.com/tankalxat34/">ВКонтакте</a>
+		<a href="https://profile.codersrank.io/user/tankalxat34/">CodersRank</a>
+		<a href="https://pypi.org/user/tankalxat34/">PyPi</a>
+	</footer>
 
 
 </html>

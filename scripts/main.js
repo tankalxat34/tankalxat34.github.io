@@ -5,3 +5,18 @@ function show18plus () {
 		window.open("./live.html");
 	}
 }
+
+function refreshPage(argument) {
+	/* Обновляет страницу */
+	location.reload()
+}
+
+function main() {
+	/* Функция для тестов и отладки скриптов */
+	for (i = 0; i < 5; i++) {
+		console.log(i++);
+	}
+
+	var a = 0; console.log(++a)
+	
+}
