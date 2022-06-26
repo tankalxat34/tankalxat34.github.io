@@ -13,10 +13,21 @@ function refreshPage(argument) {
 
 function main() {
 	/* Функция для тестов и отладки скриптов */
-	for (i = 0; i < 5; i++) {
-		console.log(i++);
+
+	let c = prompt("Введите число");
+
+	let i = 2;
+	for (i; i < c; i++) {
+		if (i * i > c) {
+			i--;
+			break;
+		} else if (i * i == c) {
+			break;
+        }
 	}
 
-	var a = 0; console.log(++a)
+	// double shot = (c + i * i) / 2*i;
+
+	alert(i + shot)
 	
 }
