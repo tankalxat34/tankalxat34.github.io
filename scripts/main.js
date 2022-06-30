@@ -1,33 +1,19 @@
-function show18plus () {
-	/* Вызывает предупреждение 18+ о переходе на страницу со стримом */
-	var result = confirm("На стриме может присутствовать контент 18+. Вы действительно хотите перейти к просмотру?");
-	if (result) {
-		window.open("./live.html");
-	}
-}
+const fibonachi = n => {
+    /* нахождение числа Фибоначчи по его номеру 
+    
+    число Фибоначчи - такое число, которое является суммой двух предыдущих чисел
 
-function refreshPage(argument) {
-	/* Обновляет страницу */
-	location.reload()
-}
+    РЯД: 0, 1, 1, 2, 3, 5, 8, 13
+      №: 0, 1, 2, 3, 4, 5, 6, 7
 
-function main() {
-	/* Функция для тестов и отладки скриптов */
+    ФОРМУЛА: f(n) = f(n - 1) + f(n - 2)
+    */
+    if (n < 0) {
+        return 0
+    }
 
-	let c = prompt("Введите число");
-
-	let i = 2;
-	for (i; i < c; i++) {
-		if (i * i > c) {
-			i--;
-			break;
-		} else if (i * i == c) {
-			break;
-        }
-	}
-
-	// double shot = (c + i * i) / 2*i;
-
-	alert(i + shot)
-	
+    if (n <= 2) {
+        return 1
+    }
+    return fibonachi(n - 1) + fibonachi(n - 2)
 }

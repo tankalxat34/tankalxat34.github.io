@@ -1,11 +1,11 @@
 /* стили всех кнопок на сайте */
 
 a {
-	/*color: #00DDFF;*/
-	color: #3A8FFF;
+/*	color: #3A8FFF;*/
+    color: rgba(255,64,64,1);
 	text-decoration: none;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 

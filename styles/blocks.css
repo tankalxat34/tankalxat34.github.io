@@ -29,6 +29,8 @@ header {
 	text-align: center;
 }
 .header-special-link {
+    font-family: inter; 
+    font-weight: 900;
 	position: relative;
 	background: linear-gradient(90deg, rgba(255,64,64,1) 7%, rgba(123,58,223,1) 90%);
 	-webkit-background-clip: text;
@@ -50,6 +52,7 @@ header a {
 header a:hover {
 	background: rgba(123,58,223, .4) 7%;
 	border-radius: 5px;
+    text-decoration: none;
 }
 
 header a:active {
