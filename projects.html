@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 
-<html lang="ru">
+<html lang="ru" class="projects">
 
 	<head>
 		<!-- установка базовых параметров -->
 		<meta charset="utf-8">
-		<title>tankalxat34 - Projects</title>
+		<title>tankalxat34</title>
 		<link rel="icon" href="https://raw.githubusercontent.com/tankalxat34/tankalxat34.github.io/content/favicon.png">
 
+		<!-- Yandex.Metrika counter -->
+		<script type="text/javascript" >
+			(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+			m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+		
+			ym(89438457, "init", {
+				clickmap:true,
+				trackLinks:true,
+				accurateTrackBounce:true,
+				webvisor:true
+			});
+		</script>
+		<noscript><div><img src="https://mc.yandex.ru/watch/89438457" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+		<!-- /Yandex.Metrika counter -->
+
+
 		<!-- загрузка стилей -->
-		<link rel="stylesheet" href="./styles/stylesheet.css">
+		<!-- <link rel="stylesheet" href="./styles/stylesheet.css"> -->
+		<link rel="stylesheet" href="./styles/blocks.css">
+		<link rel="stylesheet" href="./styles/buttons.css">
 		<link rel="stylesheet" href="./styles/fonts.css">
 
 		<!-- подключение шрифтов -->
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-		<!-- подключение скриптов -->
-		<script type="text/javascript" src="./scripts/main.js"></script>
 	</head>
 
 	<!-- верхнее меню -->
-	<div class="top-menu">
-		<a href="./index.html" class="menu-logo"><b>tankalxat34</b></a>
-		<a href="./index.html" class="button-menu"><b>Главная</b></a>
-		<a href="./projects.html" class="button-menu"><b>Проекты</b></a>
-		<a href="./index.html" class="button-menu"><b>Блог</b></a>
-	</div>
+	<header></header>
 
-	<br>
-
-	<!-- основная часть	-->
 	<body style="margin: auto;">
-		
-		<div class="card-black in-page-center" style="width: auto; border-radius: 0px">
-			
+		<div>
+			<div class="projects" style="margin: auto; text-align: center; width: 80vw">
+				<h2>Проектная деятельность</h2>
+				<p>Здесь размещены все мои проекты, которые я когда-либо разрабатывал. Большая часть проектов написана самостоятельно.</p>
+				<p>Сначала на данной странице идут проекты, которые находтся в открытом доступе - вы их можете их посмотреть и протестировать. Ниже будут размещены другие проекты, которые находятся в приватном доступе.</p>
+				
+				<div id="projects-place"></div>
+			</div>
 		</div>
 
 	</body>
 
+
+	<!-- низ сайта -->
+	<!-- <footer></footer> -->
+
+	<!-- подключение скриптов -->
+	<script type="text/javascript" src="./scripts/main.js"></script>
 
 
 </html>

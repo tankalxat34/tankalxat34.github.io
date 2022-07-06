@@ -16,4 +16,6 @@ function rndSpan(id=id) {
     globalThis.document.getElementById(id).textContent = labels[rnd(0, labels.length - 1)];
 }
 
-rndSpan(id)
+window.onload = () => {
+    rndSpan(id)
+}

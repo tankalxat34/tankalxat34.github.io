@@ -44,7 +44,7 @@ header a {
 	text-transform: uppercase;
 	color: #ffffff;
 	margin: 1%;
-	transition: ;
+	/* transition: ; */
 	padding: 9px;
 	transition-duration: .3s;
 	border-radius: 150%;
@@ -99,5 +99,75 @@ footer a {
 	background-position: center right;
 	background-size: 120%;
 	background-repeat: no-repeat;
+
+}
+
+
+html.projects {
+	/* background: linear-gradient(30deg, rgba(255, 64, 64, 0.83) 7%, rgba(124, 58, 223, 0.83) 90%); */
+	/* background: linear-gradient(30deg, rgba(255,64,64,.99) 7%, rgba(123,58,223,.99) 90%); */
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: auto;
+	height: 100vh;
+}
+
+body div.projects {
+	width: 80%;
+	/* background-color: #041225; */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	color: #ffffff;
+	font-size: 20px;
+	padding: .3% 2%;
+	text-align: left;
+	margin: 10px auto;
+	border-radius: 20px;
+
+	background: rgba(7, 18, 33, 0.918);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(13px);
+}
+
+.projects.block {
+	/* display: inline-block; */
+	white-space: nowrap;
+	text-align: justify;
+	height: 25vh;
+	width: 20vw;
+	padding-bottom: 2%;
+	box-shadow: 0 0 20px black;
+	transition-duration: .3s;
+
+	display: inline-block;
+	margin: 1%;
+	float: left;
+	cursor: pointer;
+
+	font-size: 1vw;
+}
+.projects.block h3 {
+	font-family: monospace;
+}
+.projects.block:hover {
+	box-shadow: 15px 15px 35px rgb(29, 0, 107);
+	z-index: 10;
+	transform: translate3d(-10px, -10px, 0px);
+}
+
+.projects.block p {
+	/* overflow-wrap: break-word; */
+	/* word-wrap: break-word; */
+	white-space: normal;
+}
+
+div.projects table {
+	font-size: 16px;
+}
+
+div#project-place {
+	/* display: flex; */
+	/* word-wrap: break-word; */
+	text-align: center;
+	margin: auto;
 
 }
