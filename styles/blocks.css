@@ -10,6 +10,19 @@
 	background-color: #60676B;
 }
 
+.gradient {
+	background: rgb(5,11,34);
+	background: linear-gradient(32deg, rgba(5,11,34,1) 10%, rgba(44,7,83,1) 33%, rgba(4,93,125,1) 72%, rgba(123,58,223,1) 100%);
+}
+
+.gradient-text {
+	position: relative;
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
 html {
 	background-color: #050C16;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
@@ -28,18 +41,15 @@ header {
 	z-index: 1;
 	text-align: center;
 }
+
 .header-special-link {
-    font-family: inter; 
+    font-family: inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"; 
     font-weight: 900;
 	position: relative;
-	background: linear-gradient(90deg, rgba(255,64,64,1) 7%, rgba(123,58,223,1) 90%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	/* -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
 }
-.header-special-link:hover {
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
+
 header a {
 	text-transform: uppercase;
 	color: #ffffff;
@@ -50,7 +60,7 @@ header a {
 	border-radius: 150%;
 }
 header a:hover {
-	background: rgba(123,58,223, .4) 7%;
+	background: rgba(66, 41, 255, 0.4) 7%;
 	border-radius: 5px;
     text-decoration: none;
 }
@@ -63,31 +73,28 @@ header a:active {
 .tankalxat34-big {
 	font-weight: 700;
 	position: relative;
-	background: linear-gradient(90deg, rgba(255,64,64,1) 7%, rgba(123,58,223,1) 90%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 body h1 {
 	font-weight: 700;
 	font-size: 55px;
 
-	position: relative;
-	background: linear-gradient(90deg, rgba(255,64,64,1) 7%, rgba(123,58,223,1) 90%);
-	background-repeat: repeat-x;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color:rgba(39, 100, 165, 0.99);	
 }
 
 footer {
-	border-top: 1px solid;
+	/* border-top: 1px solid; */
 	height: 100%;
-	width: 50%;
+	width: 100hv;
 	margin: auto;
 	font-size: 15px;
 	padding: 1em;
 	color: grey;
 	text-align: center;
+	
+	background: rgba(7, 18, 33, 0.412);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(13px);
 }
 
 footer a {
@@ -102,10 +109,7 @@ footer a {
 
 }
 
-
 html.projects {
-	/* background: linear-gradient(30deg, rgba(255, 64, 64, 0.83) 7%, rgba(124, 58, 223, 0.83) 90%); */
-	/* background: linear-gradient(30deg, rgba(255,64,64,.99) 7%, rgba(123,58,223,.99) 90%); */
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin: auto;
@@ -123,19 +127,18 @@ body div.projects {
 	margin: 10px auto;
 	border-radius: 20px;
 
-	background: rgba(7, 18, 33, 0.918);
+	background: rgba(7, 18, 33, 0.518);
 	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(13px);
+	backdrop-filter: blur(10px);
 }
 
 .projects.block {
-	/* display: inline-block; */
 	white-space: nowrap;
 	text-align: justify;
-	height: 25vh;
+	height: 400px;
 	width: 20vw;
 	padding-bottom: 2%;
-	box-shadow: 0 0 20px black;
+	box-shadow: 0 0 24px black;
 	transition-duration: .3s;
 
 	display: inline-block;
@@ -143,31 +146,22 @@ body div.projects {
 	float: left;
 	cursor: pointer;
 
-	font-size: 1vw;
+	font-size: 21px;
 }
 .projects.block h3 {
-	font-family: monospace;
+	font-size: 25px;
+	word-wrap:inherit;
 }
 .projects.block:hover {
-	box-shadow: 15px 15px 35px rgb(29, 0, 107);
+	box-shadow: 15px 15px 35px rgba(3, 0, 82, 0.553);
 	z-index: 10;
 	transform: translate3d(-10px, -10px, 0px);
 }
 
 .projects.block p {
-	/* overflow-wrap: break-word; */
-	/* word-wrap: break-word; */
 	white-space: normal;
 }
 
 div.projects table {
 	font-size: 16px;
-}
-
-div#project-place {
-	/* display: flex; */
-	/* word-wrap: break-word; */
-	text-align: center;
-	margin: auto;
-
 }
