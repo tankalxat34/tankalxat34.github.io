@@ -58,6 +58,7 @@ function fillFooter() {
 `
 <span>© tankalxat34 - 2022</span>
 <a href="https://github.com/tankalxat34">GitHub</a>
+<a href="https://www.linkedin.com/in/alexander-podstrechnyy-866465236/">LinkedIn</a>
 <a href="https://t.me/tankalxat34_official">Telegram</a>
 <a href="https://trovo.live/s/tankalxat34">Trovo</a>
 <a href="https://vk.com/tankalxat34/">ВКонтакте</a>
