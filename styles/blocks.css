@@ -15,6 +15,10 @@
 	background: linear-gradient(32deg, rgba(5,11,34,1) 10%, rgba(44,7,83,1) 33%, rgba(4,93,125,1) 72%, rgba(123,58,223,1) 100%);
 }
 
+.gradient.fixed {
+	background-attachment: fixed
+}
+
 .gradient-text {
 	position: relative;
 	background-repeat: repeat-x;
@@ -160,6 +164,13 @@ body div.projects {
 
 .projects.block p {
 	white-space: normal;
+}
+
+.projects.index {
+	box-shadow: 0 0 20px black;
+	margin-bottom: 120px;
+	padding: 5%; 
+	width: 80vw;
 }
 
 div.projects table {
